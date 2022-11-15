@@ -57,9 +57,9 @@ nav a {
 .aluno {
   border-bottom: 15px solid whitesmoke;
   display: flex;
-  flex-direction: column-reverse;
-  justify-content: top;
-  align-items: top;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-transform: uppercase;
   text-align: center;
   font-size: 130%;
