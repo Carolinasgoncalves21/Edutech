@@ -56,14 +56,17 @@ nav a {
 
 .aluno {
   border-bottom: 15px solid whitesmoke;
-  display: inline-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-transform: uppercase;
   text-align: center;
   font-size: 130%;
   font-weight: bold;
   color: whitesmoke ;
-  margin: 5%
-}
+  margin: 5%;
+ }
 
 .aluno img{
   width: 300px;
