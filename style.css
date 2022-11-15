@@ -59,7 +59,7 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: top;
   text-transform: uppercase;
   text-align: center;
   font-size: 130%;
