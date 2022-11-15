@@ -42,13 +42,12 @@ nav a {
   padding: 15px;
   display: inline;
   font-family: arial, sans-serif;
-  position: relative;
-}
+  }
 
 .nome {
   text-align: center;
   text-decoration: wavy;
-   width: 20%;
+  width: 20%;
   height: 20%;
 
 }
