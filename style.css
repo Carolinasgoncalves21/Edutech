@@ -63,33 +63,24 @@ nav a {
   font-size: 130%;
   font-weight: bold;
   color: whitesmoke ;
-  margin: 2%;
+  margin: 0 auto;
+  width: 300px;
+  min-height: 300px;
+  overflow: hidden;
 }
 
 
-.aluno {
-        width: 300px;
-        height: 300px;
-        overflow: hidden;
-        margin: 0 auto;
-    }
-       
+      
 .aluno img {
-        width: 100%;
-        transition: 0.5s all ease-in-out;
-    }
-       
-    .geeks:hover img {
-        transform: scale(1.5);
-    }
-
-
-
-
-.aluno img{
   width: 300px;
   height: 300px;
- }
+  transition: 0.5s all ease-in-out;
+}
+       
+.geeks:hover img {
+  transform: scale(1.5);
+}
+
 
 h1 {
   font-size: 50px;
