@@ -66,10 +66,24 @@ nav a {
   margin: 2%;
 }
 
-.aluno:hover{
-  text-shadow: 0,98;
 
-}
+.aluno {
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+       
+.aluno img {
+        width: 100%;
+        transition: 0.5s all ease-in-out;
+    }
+       
+    .geeks:hover img {
+        transform: scale(1.5);
+    }
+
+
 
 
 .aluno img{
