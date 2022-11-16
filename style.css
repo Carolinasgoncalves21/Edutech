@@ -66,8 +66,8 @@ nav a {
   margin: 2%;
 }
 
-aluno:hover{
-  transform-style: 0,98;
+.aluno:hover{
+  text-shadow: 0,98;
 
 }
 
