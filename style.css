@@ -1,5 +1,5 @@
 body {
-  text-align: center;
+  text-align: justify;
   background: linear-gradient(#5f7b42, #408fce);
 }
 
@@ -110,3 +110,6 @@ footer {
   margin-left: 5%;
 }
 
+@-ms-viewport{
+  width: device-width;
+}
