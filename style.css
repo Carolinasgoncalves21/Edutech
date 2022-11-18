@@ -5,7 +5,10 @@ body {
 
 header {
   background-color: #cbcbcb;
+  border-radius: 10%;
   position: fixed;
+  top: 0;
+  right: 0;
 }
 
 #cabecalho {
@@ -64,7 +67,6 @@ nav a:hover{
 
 .aluno {
   border-bottom: 15px solid whitesmoke;
-  border-radius: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
