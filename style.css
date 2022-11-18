@@ -1,6 +1,6 @@
 body {
   text-align: justify;
-  background: linear-gradient(#5f7b42,#000000,#408fce);
+  background: linear-gradient(#5f7b42,#408fce, #5f7b42);
 }
 
 header {
@@ -42,8 +42,8 @@ nav a:hover{
 .menu {}
 
 .professoras {
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content:start;
   align-items: center;
 }
 
