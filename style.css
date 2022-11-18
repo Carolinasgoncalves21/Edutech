@@ -1,11 +1,11 @@
 body {
   text-align: justify;
-  background: linear-gradient(#5f7b42,#cbcbcb,#408fce);
+  background: linear-gradient(#5f7b42,#000000,#408fce);
 }
 
 header {
   background-color: #cbcbcb;
-  position: sticky;
+  position: fixed;
 }
 
 #cabecalho {
@@ -64,6 +64,7 @@ nav a:hover{
 
 .aluno {
   border-bottom: 15px solid whitesmoke;
+  border-radius: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
