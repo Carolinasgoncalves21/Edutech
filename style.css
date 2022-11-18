@@ -42,9 +42,14 @@ nav a:hover{
 .menu {}
 
 .professoras {
-  flex-direction: column;
+  flex-direction: inherit;
   justify-content: flex-start;
   align-items: flex-start;
+}
+
+.nossa-foto {
+  width: 25%;
+
 }
 
 .home {
