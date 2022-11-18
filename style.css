@@ -42,13 +42,22 @@ nav a:hover{
 .menu {}
 
 .professoras {
-  flex-direction: inherit;
-  justify-content: flex-start;
-  align-items: flex-start;
+  border-bottom: 15px solid whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 130%;
+  font-weight: bold;
+  color: whitesmoke ;
+  margin: 2%;
+  
 }
 
 .nossa-foto {
-  width: 25%;
+  
 
 }
 
