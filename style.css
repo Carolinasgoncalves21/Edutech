@@ -85,7 +85,7 @@ nav a:hover{
   border-bottom: 15px solid whitesmoke;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: baseline;
   align-items: center;
   text-transform: uppercase;
   text-align: center;
@@ -109,6 +109,7 @@ h1 {
 }
 
 legend {
+  text-align: center;
   margin: 1%;
 }
 
