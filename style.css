@@ -42,11 +42,10 @@ nav a:hover{
 .menu {}
 
 .professoras {
-  border-bottom: 15px solid whitesmoke;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: baseline;
+  align-items: unset;
   text-transform: uppercase;
   text-align: center;
   font-size: 130%;
@@ -85,7 +84,7 @@ nav a:hover{
   border-bottom: 15px solid whitesmoke;
   display: flex;
   flex-direction: column;
-  justify-content: baseline;
+  justify-content: center;
   align-items: center;
   text-transform: uppercase;
   text-align: center;
