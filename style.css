@@ -106,6 +106,14 @@ h1 {
   margin-right: 5px;
 }
 
+h2 {
+  font-size: 40px;
+  color: #cbcbcb;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-right: 10px;
+}
+
 legend {
   text-align: center;
   margin: 1%;
