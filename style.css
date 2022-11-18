@@ -42,7 +42,6 @@ nav a:hover{
 .menu {}
 
 .professoras {
-  display: flex;
   flex-direction: column;
   justify-content: baseline;
   align-items: unset;
@@ -50,12 +49,12 @@ nav a:hover{
   text-align: center;
   font-size: 130%;
   font-weight: bold;
-  color: whitesmoke ;
   margin: 2%;
   
 }
 
 .nossa-foto {
+  width: 50px;
   
 
 }
