@@ -1,4 +1,8 @@
 body {
+  width: 100%;
+  margin: 0 auto;
+  min-width: 600px;
+  max-width: 2000px;
   text-align: justify;
   background: linear-gradient(#5f7b42,#408fce, #5f7b42, #408fce);
 }
