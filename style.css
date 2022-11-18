@@ -5,8 +5,7 @@ body {
 
 header {
   background-color: #cbcbcb;
-  border-radius: 10%;
- }
+}
 
 #cabecalho {
   width: 10%;
@@ -41,6 +40,12 @@ nav a:hover{
 }
 
 .menu {}
+
+.professoras {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .home {
   margin-top: 20%;
