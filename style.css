@@ -8,23 +8,31 @@ body {
 }
 
 header {
-  background-color: #8dbd98;
-  border: 10px rgb(10, 73, 22) solid;
+  width: 120%;
+  background:#228b22;
+	background: linear-gradient(#228b22, #99c58f);
+}
+
+#logoD{
+  width: 12%;
+  margin-left:20px;
+ 
+  padding-top: 10px;
 }
 
   
  
 #cabecalho {
   width: 10%;
-  margin-left: 10%;
+  margin-left:20px;
 }
 
 nav {
   position: absolute;
-  top: 25px;
+  top: 60px;
   right: 10px;
   margin-left: 20%;
-  font-size: 30px;
+  font-size: 40px;
   font-family: monospace;
 
 }
