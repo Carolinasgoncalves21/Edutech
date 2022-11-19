@@ -8,9 +8,12 @@ body {
 }
 
 header {
-  background-color: #cbcbcb;
+  background-color: #8dbd98;
+  border: 10px rgb(10, 73, 22) solid;
 }
 
+  
+ 
 #cabecalho {
   width: 10%;
   margin-left: 10%;
@@ -31,16 +34,22 @@ nav li {
 }
 
 nav a {
-  text-decoration: none;
+  
   font-size: 80%;
+  text-transform: uppercase;
+  color: #1669d6;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
 }
 
 nav a:hover{
   font-size: 26px;
   font-weight: bold;
   text-shadow: 1px 1px 2px #5f7b42;
-  color: #cbcbcb;
+  color: #113103;
   transition: 0.8s;
+  text-decoration: underline;
 }
 
 .menu {}
