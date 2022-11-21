@@ -172,9 +172,25 @@ footer {
   margin-left: 5%;
 }
 
-@-ms-viewport{
-  width: device-width;
-}
-@media screen and max-width(768px){
-  
-}
+@media screen and (max-width: 480px) {
+  .caixa, .menu, .home, {
+      width: auto;
+      text-align: center;
+      }
+
+  header {
+      max-width: fit-content;
+  }
+
+  nav {
+      position: static;
+  }
+
+  }
+
+  @-ms-viewport{
+    width: device-width;
+  }
+  @media screen and max-width(768px){
+    
+  }
