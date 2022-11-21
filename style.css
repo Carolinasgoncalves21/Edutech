@@ -126,6 +126,7 @@ nav a:hover{
   //target="_blank";
   display: flex;
   flex-direction: row;
+  wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
   align-content: flex-start;
