@@ -123,6 +123,7 @@ nav a:hover{
  }
 
 .jogosdosalunos {
+  border-radius: 2px white double;
   margin: 5%;
   padding-right: 5%;
   display: flex;
