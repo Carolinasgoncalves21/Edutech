@@ -9,7 +9,7 @@ body {
 
 header {
   width: 120%;
-  background: white;
+  background: #FFFFFF;
 	background: linear-gradient(#228b22, #99c58f);
 }
 
@@ -103,9 +103,10 @@ nav a:hover{
 .aluno {
   border-bottom: 15px solid whitesmoke;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  align-content: flex-start;
   text-transform: uppercase;
   text-align: center;
   font-size: 130%;
