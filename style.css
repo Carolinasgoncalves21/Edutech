@@ -94,6 +94,7 @@ nav a:hover{
   }
 
 .nome {
+  font-family: 'Dancing Script', cursive;
   text-align: center;
   text-decoration: wavy #408fce 2px;
   width: 100%;
