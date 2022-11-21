@@ -124,6 +124,7 @@ nav a:hover{
 
 #jogosdosalunos {
   //target="_blank";
+  border: 5px solidcolor (#5f7b42,#408fce); 
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
