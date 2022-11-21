@@ -63,9 +63,11 @@ nav a:hover{
 .menu {}
 
 .professoras {
-  flex-direction: column;
-  justify-content: baseline;
-  align-items: unset;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
   text-transform: uppercase;
   text-align: center;
   font-size: 130%;
@@ -103,10 +105,10 @@ nav a:hover{
 .aluno {
   border-bottom: 15px solid whitesmoke;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  align-content: flex-start;
+  align-items: center;
+  align-content: center;
   text-transform: uppercase;
   text-align: center;
   font-size: 130%;
