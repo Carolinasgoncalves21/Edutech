@@ -59,17 +59,19 @@ nav a:hover{
   text-decoration: underline;
 }
 
-.menu {}
+.menu {
+  display: flexbox;
+}
 
 .professoras {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
-  align-content: flex-start;
+  align-items: center;
+  align-content: center;
   text-transform: uppercase;
   text-align: center;
-  font-size: 130%;
+  font-size: 30%;
   font-weight: bold;
   margin: 2%;
   
@@ -155,6 +157,7 @@ legend {
 }
 
 p {
+  display: flex;
   font-size: 40px;
   text-align: justify;
   color:#cbcbcb;
