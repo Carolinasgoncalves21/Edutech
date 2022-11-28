@@ -80,6 +80,8 @@ nav a:hover{
   display: flex;
   text-align: justify;
   font-size: 35px;
+  margin: auto;
+  padding: auto;
   
 }
 
