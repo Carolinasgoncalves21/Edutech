@@ -79,8 +79,8 @@ nav a:hover{
 .historia {
   display: flex;
   text-align: justify;
-  font-size: 60%;
- }
+  
+}
 
  .nossa-foto {
   display: flex;
