@@ -83,7 +83,7 @@ nav a:hover{
 
  .nossa-foto {
   display: flex;
-  width: 200px;
+  width: 400px;
   margin-top: 15px;
  }
 
@@ -159,7 +159,7 @@ h2 {
 
 legend {
   text-align: center;
-  margin: 1%;
+  margin: 10%;
 }
 
 p {
