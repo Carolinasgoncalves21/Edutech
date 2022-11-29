@@ -18,8 +18,7 @@ header {
   margin-left:20px; 
   padding-top: 10px;
 }
-
-  
+ 
  
 #cabecalho {
   width: 10%;
@@ -41,7 +40,6 @@ nav li {
 }
 
 nav a {
-  
   font-size: 80%;
   text-transform: uppercase;
   color: #1669d6;
@@ -64,13 +62,15 @@ nav a:hover{
 }
 
 .professoras {
+  border: 3px #cccccc solid;
+  border-radius: 15px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   align-content: center;
   text-align: center;
-  font-size: 30%;
+  font-size:x-large;
   font-weight: bold;
   margin: 5px;
   
@@ -87,7 +87,7 @@ nav a:hover{
 
  .nossa-foto {
   display: flex;
-  width: 300px;
+  width: 250px;
   margin-top: 15px;
  }
 
@@ -105,17 +105,29 @@ nav a:hover{
   font-family: arial, sans-serif;
   }
 
-.nome {
+.nomeprofs {
   font-family: 'Dancing Script', cursive;
   text-align: center;
   color:#cbcbcb;
   width: 100%;
   height: 20%;
+}
 
+.nome {
+  font-family: 'Abril Fatface', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  color:#cbcbcb;
+  width: 100%;
+  height: 20%;
 }
 
 .aluno {
-  border-bottom: 15px solid whitesmoke;
+  border-bottom: 15px solid #f2f6f4;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -164,26 +176,27 @@ h2 {
 legend {
   display: inline-block;
   text-align: center;
-  margin: 10%;
+  margin: 1%;
 }
 
 p {
   display: flex;
   font-size: 40px;
-  text-align: center;
+  text-align: justify;
   color:#cbcbcb;
   margin: 5px;
   padding: 5px;
 }
 
 footer {
-  background-color: white;
+  background-color: #f2f6f4;
+  text-align: center;
 }
 
 #rodape {
   text-align: center;
   width: 10%;
-  margin-left: 5%;
+  margin-left: 1%;
 }
 
 @media screen and (max-width: 480px) {
